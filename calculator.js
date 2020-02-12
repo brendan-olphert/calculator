@@ -28,19 +28,6 @@ function getButtonValue () {
   }
 }
 
-// function getButtonValue () {
-//   let button = event.target.value
-//   switch (true) {
-//     case (!isNaN(button) || button === '.'):
-//       number(button)
-//     case (button === 'AC'):
-//       allClear()
-//     case (button === "CE"):
-//       clear()
-//     case (button === '='):
-//       storeNumber()
-//     }
-
 function number (button) {
   if (button === '.' && numString.includes('.')) {
     // return
